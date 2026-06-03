@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LADSI – Bientôt disponible</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<canvas id="particles"></canvas>
+<div class="blob blob1"></div>
+<div class="blob blob2"></div>
+
+<div class="page">
+  <div class="wrap">
+
+    <div class="logo">LADSI<span class="dot">.</span></div>
+
+    <div class="tag">
+      <div class="tag-pulse"></div>
+      Lancement imminent
+    </div>
+
+    <h1>Quelque chose de grand<br><em>arrive bientôt.</em></h1>
+
+    <p class="sub">
+      Votre DSI externalisée — applications, automatisations, hébergement —
+      arrive le <strong style="color:var(--orange3);font-weight:500;">1er juillet 2026</strong>.
+      Soyez parmi les premiers à en bénéficier.
+    </p>
+
+    <div class="countdown">
+      <div class="cbox">
+        <span class="cnum" id="cd-days">00</span>
+        <span class="clbl">Jours</span>
+      </div>
+
+      <div class="sep">:</div>
+
+      <div class="cbox">
+        <span class="cnum" id="cd-hours">00</span>
+        <span class="clbl">Heures</span>
+      </div>
+
+      <div class="sep">:</div>
+
+      <div class="cbox">
+        <span class="cnum" id="cd-mins">00</span>
+        <span class="clbl">Minutes</span>
+      </div>
+
+      <div class="sep">:</div>
+
+      <div class="cbox">
+        <span class="cnum" id="cd-secs">00</span>
+        <span class="clbl">Secondes</span>
+      </div>
+    </div>
+
+    <div class="email-wrap" id="email-wrap">
+      <input type="email" id="email-input" placeholder="Votre email professionnel">
+      <button id="notify-btn">Me notifier →</button>
+    </div>
+
+    <p class="sent-msg" id="sent-msg">
+      ✓ Parfait ! Vous serez notifié dès le lancement.
+    </p>
+
+    <div class="links">
+      <a href="mailto:contact@ladsi.online">✉contact@ladsi.online</a>
+      <div class="dot-sep"></div>
+      <a href="https://wa.me/242044594581" target="_blank">WhatsApp</a>
+      <div class="dot-sep"></div>
+      <a href="#">LinkedIn</a>
+      <div class="dot-sep"></div>
+      <a href="#">Instagram</a>
+    </div>
+
+    <p class="footer-note">
+      © 2026 LADSI – La Digital Solution Intelligence
+    </p>
+
+  </div>
+</div>
+
+<div class="progress-bar" id="pbar"></div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
